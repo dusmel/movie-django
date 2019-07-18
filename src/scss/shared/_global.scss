@@ -1,0 +1,9 @@
+$color-primary: #A22C29;
+$color-light: #fcfcfc;
+$color-dark: #222;
+
+.bg-primary{
+  background: $color-primary !important;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+HK&display=swap');

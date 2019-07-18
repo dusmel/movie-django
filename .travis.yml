@@ -1,0 +1,13 @@
+sudo: false
+language: node_js
+node_js:
+  - "11.10.1"
+before_script:
+  - npm i
+script:
+  - npm test -- -u
+after_success:
+  - npm run coverage
+cache:
+  directories:
+    - node_modules

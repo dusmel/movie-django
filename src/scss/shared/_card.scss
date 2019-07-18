@@ -1,0 +1,17 @@
+.card{
+  border-color: $color-light;
+  box-shadow: 8px 10px 20px 8px rgba(46, 61, 73, 0.15);
+  img{
+    height: 250px;
+    object-fit: cover;
+  }
+  .card-body{
+    min-height: 150px;
+    max-height: 150px;
+    padding: 4px 1rem;
+    p{
+      font-size: 14px;
+    }
+  }
+  
+}
